@@ -1,0 +1,40 @@
+/*write a comment explaining what you are doing on line 2*/
+*{
+  box-sizing:border-box;
+}
+/*make a prediction about line 6 rule set*/
+Body{
+  background-color: rgb(65, 117, 6, 0.575);
+  color:rgb(25, 23, 1);
+}
+/*style of the navigation bar*/
+.topnav{
+  background-color: rgb(8, 8, 134, 0.842);
+  overflow:hidden;
+}
+/*style the links inside the navigation bar*/
+.topnav a{
+  color:rgba(21, 88, 4, 0.884);
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+/*changes color on hover or mouse over*/
+.topnav a:hover{
+  background-color:rgb(34, 45, 24);
+  color: rgba(212, 12, 12, 0.767);
+}
+.header{
+  background-color:purple;
+  padding:20xp;
+  text-align: center;
+  color:crimson;
+}
+
+/*Creates 3 equal colums that float next to eachother*/
+.column{
+  float: left;
+  width:33.33%;
+  padding:15px;
+}

@@ -1,0 +1,90 @@
+<!--DOCTYPE html-->
+<html>
+  <head>
+    <title>Lab 10 Internal</title>
+    <style>
+    /*the * works as universial a selecter for CSS*/
+    *{
+      box-sizing:Boarder-box;
+    }
+    
+    */A CSS selector selects the HTML element(s) you want to style. Simple selectors (select elements based on name, id, class)*/
+    /*any html tag can be a selector. For example*/
+    .header{
+      background image:url
+       (IMG_20220207_142430.jpg)
+    }
+
+      /*The class selector slects HTML elements with a specific class attribute. To select elements with a specific class, write a periode (.) character, followed the class name.*/
+    .header{
+     color:darkred;
+    }
+    */The id selector uses the id attributw of an HTML element to select a specific element. The id of an element is uniqe within a page, so the id selector is used to select an element with a specific id, write a hash (#) character, followed by the id of the element. Example the CSS rule below will be applied to the HTML element with id="par1": */
+    #demoBox {
+      text-allign: center;
+      color: red;
+    }
+    /*The grouping selector selects all the HTML elements with the same style definitions. Look at the following CSS code (the h1,h2, and p elements have the same style definitions). It will be better to group the selectors, to minimize the code. To group selectors, separate each selector with a comma.*/
+    p, h1, h3{
+      color: green;
+    }
+    /*A combinator is something that explains the relationship between the selectors. A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator. There are four different combiners in CSS: 
+    {
+    Descendant selector(space)
+    child selector (>)
+    adjacent sibling selector(+)
+    general sibling selector (-)*/
+    .header h3 color:darkgrey;
+    }
+   /*changes color on hover or mouse over*/
+   /*A pseudo-class is used to define a special state of an element, it can be used to: 
+   Style an element when a user mouses over it Style visited and unvisited links differently style an element when it gets focus 
+   */
+   .topnav a:hover{
+     backround-color: #f1f1f1; 
+     color: black;
+   }
+   /*CSS[attribute] Selector 
+   The [attribute] selector is used to select elements with a specific attribute.*/
+    
+     </style>
+     <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="../../main.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+    <div class="topnav">
+    <a href="labs/lab1/lab1.html">lab 1</a>
+    <a href="labs/lab2/lab2.html">lab 2</a>
+    <a href="labs/lab3/lab3.html">lab 3</a>
+    <a href="labs/lab4/lab4.html">lab 4</a>
+    <a href="labs/lab5/lab5.html">lab 5</a>
+    <a href="labs/lab6/lab6.html">lab 6</a>
+    <a href="labs/lab7/lab7.html">lab 7</a>
+    <a href="labs/lab8/lab8.html">lab 8</a>
+    <a href="labs/lab9/lab9.html">lab 9</a>
+    <a href="labs/lab10/lab10.html">lab 10</a>
+    <a href="labs/lab11/lab11.html">lab 11</a>
+    <a href="labs/lab12/lab12.html">lab 12</a>
+    <a href="labs/lab13/lab13.html">lab 13</a>
+    <a href="labs/lab14/lab14.html">lab 14</a>
+    <a href="labs/lab15/lab16.html">lab 15</a>
+    <a href="labs/lab16/lab16.html">lab 16</a>
+    <a href="labs/lab17/lab17.html">lab 17</a>
+    <a href="labs/lab18/lab18.html">lab 18</a>
+    <a href="labs/lab19/lab19.html">lab 19</a>
+    <a href="labs/lab20/lab20.html">lab 20</a>
+    </div>
+    <div class="heder">
+    <h1>Thomas A. Edison HS</h1>
+    <h2>Web Design Achademy</h2>
+    <h3>Lab 10 Internal CSS</h3>
+    <h4>Emanuel Morrison</h4>
+    </div>
+    <div id="demoBox">
+      <h1>Emanuel</h1>
+      <h1="Iname">Morrison</h1>
+      <h1>02/09/22</h1>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box; 
+  font-family: "Helvetica", sand-serif;
+}
+body{
+  background-color: rgba(32,43,57,1); 
+  height: 100vh;
+  width: 100vw;
+  disply: block;
+  position: realitive;
+}
+.wraper{
+  display:block;
+background-color:#39515b;
+  width: 600px;
+  height: 610px;
+  position: abosulute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding:1em;
+  padding-top:6.5em;
+  outline:#202b39 solid 8px;
+  outline-offset: -17px
+  overflow:hidden;
+}
+.section_userform{
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+  color:#fff;
+}
+.input_label{
+  width: 35%;
+  text-align: right;
+  display: inline-block;
+  font-size: 1.5em;
+  color:rgba(173,200,241,1.00);
+}
+.break{
+  display: block;
+  width: 100%;
+  margin: 2em 0;
+}
+.textbox{
+  width: 50%;
+  height: 1.8em;
+  box-sizing: content-box;
+  backround-color:rgba(41,56,74,1);
+  border-color:rgba(173,20,238,1);
+  color:crimson;
+}
+.button{
+  display:block;
+  margin: none;
+  padding: 0.5em 2.5em;
+  text-transform: uppercase;
+  backround-color:rgba(32,55,77,1);
+  border-color:rgba(172,22,238,1);
+  color:rgba(245,24,33,1);
+  font-size: 1.3em;
+  border-width: 4px;
+  border-width: 3px;
+  border-style: solid;
+  transition: all ease-in-out 200ms;
+}
+.button:hover{
+  background-color:rgba(22,87,52,1);
+  color:rgba(12,143,30,1);
+  border-color:rgba(55,70,122,1);
+  transform: scale(1.05);
+}
+.buttonWapper{
+  display: grid;
+  justify-content: center;
+}
+.section_info{
+  text-aling:center; 
+  margin: 1em; 
+  color:rgba(231,78,44,1.00);
+}
+.sectoin_info h1{ 
+  font-size:5em;
+} 
+#line{
+  border-color:rbga(173,220,238,1.00)
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 4em;
+}
+.result{
+  width: 45%;
+  text-align: left;
+  display: inline-block;
+  font-size: 1.5em;
+  color:#ffd;
+}
+.result_label{
+  widht: 40%;
+  text-align: right;
+  display: inline-block;
+  font-size: 1.5em;
+  color:rgba(123,44,4,1.00);
+}
+#before{
+  opacity: 1;
+  display:block;
+}
+#after{
+  display:none;
+  opacity:0;
+}
+#goBack{
+  margin-top: 4em;
+}

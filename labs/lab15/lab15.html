@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lab #15</title>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="center">
+			<h1>TEXT CHANGER</h1>
+			<button type="button" onClick="textChange()" class="button-property">Change</button>
+			<button type="button" onClick="textReset()" class="button-property">Reset</button>
+			<p id="demo">Lorem Ipsom</p>
+		</div>
+	</div>
+<script>
+ function textChange(){
+   document.getElementById("demo").innerHTML="hope you are having a wonderful day"
+ }
+  function textReset(){
+    document.getElementById("demo").innerHTML="Lorem Ipsom"
+  }
+  //the alert sytem shows the veiwer a pop up like "todays your birthday" for example.//
+  //alert("WARNING THIS LAB TAKES ALOT OF WORK!!!!")
+  // var mood= prompt("How's your day been")
+  //alert("hi "+mood)
+   var x=5;
+  var y=2;
+  console.log(x);
+  console.log(y);
+</script>
+</body>
+</html>
